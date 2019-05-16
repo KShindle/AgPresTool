@@ -4,12 +4,12 @@ A tool I am developing for calculating the Agricultural Preservation score for p
 Initially contains 4 files
 - gui_main.ui file from QtPy5 Designer
 - python script created from converting the .ui file that initializes a GUI
-- main.py: main script that deoes the following:
-      - defines a soil report function that takes inputs from GUI
-      - defines a function for selecting input Shapefile in GUI
-      - defines a function for selecting inputed soil unit ratings file
-      - defines a function for setting user defined workspace where tool exports will be saved
-      - connects signals from GUI
+- main.py: main script that does the following:
+     - defines a soil report function that takes inputs from GUI
+     - defines a function for selecting input Shapefile in GUI
+     - defines a function for selecting inputed soil unit ratings file
+     - defines a function for setting user defined workspace where tool exports will be saved
+     - connects signals from GUI
 - Soil Rating Script.py that takes inputs from user-defined variables and does the following:
      - Clips inputed soil unit shapefile to AOI Shapefile
      - Adds fields for calculating total acreage, soil unit acreage, and soil evanluation rating
